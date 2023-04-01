@@ -1,33 +1,28 @@
 /*  your css code here. If applicable */
-section{
-	background-color:#f5f5f5;
-	
+*{
+	padding: 0;
+	margin: 0 ;
 }
-header{
+body{
+	background-color: #f5f5f5;
+}
+
+header > h1{
 	background-color:#011e29;
 	color:white;
-	padding:20px;
-	justify-content:space-around;
-	margine:left: 10px right: 10px;
-}
-.article{
-	width:200px;
-	height:200px;
-	background-color:white;
-	border-radius:20px;
-}
-.main{
-	width:300px;
-	height:300px;
-	background-color:white;
-	border-radius:20px;
-}
-.pictorial{
-	width:600px;
-	height:400px;
-	background-color:white;
-	border-radius:20px;
-}
-.container{
+	padding: 15px;
+	margin: 10px 10px;
 	display:flex;
+	justify-content: center;
+	font-size:30px;
+}
+.content{
+	display:flex;
+	gap: 10px;
+}
+.fresh{
+	padding: 30px;
+	background-color: white;
+	border: 2px solid red;
+	margin
 }
